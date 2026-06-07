@@ -17,7 +17,6 @@ import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Support from "./pages/Support";
 import SafetyTips from "./pages/SafetyTips";
-import FakeCall from "./pages/FakeCall";
 import AIChat from "./pages/AIChat";
 
 function App() {
@@ -75,11 +74,6 @@ function App() {
         <Route
           path="/safetytips"
           element={<SafetyTips />}
-        />
-
-        <Route
-          path="/fakecall"
-          element={<FakeCall />}
         />
 
         <Route

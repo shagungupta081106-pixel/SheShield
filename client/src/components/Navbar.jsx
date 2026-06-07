@@ -29,9 +29,7 @@ function Navbar() {
         <Link to="/safetytips">
          <button>Safety Tips</button>
         </Link>
-        <Link to="/fakecall">
-         <button>Fake Call</button>
-        </Link>
+      
         <Link to="/aichat">
         <button>AI Chat</button>
         </Link>
